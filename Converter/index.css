@@ -1,0 +1,13 @@
+.header {
+    font-size: 24px;
+    margin: 50px;
+}
+.js-converter {
+    margin: 50px;
+    
+}
+
+.js-output {
+    margin: 50px;
+    border: 2px solid black;
+}

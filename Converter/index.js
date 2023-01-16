@@ -1,3 +1,5 @@
+fetch('https://www.cbr-xml-daily.ru/daily_json.js');
+
 const valueInputNode = document.querySelector('.js-value-input');
 const currencySelectorNode = document.querySelector('.js-currency-selector');
 const outputNode = document.querySelector('.js-output')
