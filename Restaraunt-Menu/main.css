@@ -131,7 +131,7 @@ body {
     content: '';
     background-color: #C4C4C4;
     top: 160px;
-    left: 340px;
+    left: 333px;
 }
 
 .header-button {
@@ -147,4 +147,131 @@ body {
 
 .header-button:hover {
     background-color: #a54f16;
+}
+
+.card {
+    width: 349px;
+    height: 328px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: #fff;
+    margin-right: 31px;
+    margin-top: -50px;
+    padding: 20px 20px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', 'serif';
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.card-title span {
+    color: #BC9060;
+}
+
+.card-desc {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Tinos', 'serif';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.history {
+    padding-left: ;
+    margin-top: 166px;
+}
+
+.history-title {
+    font-family: 'Tinos', 'serif';
+    font-weight: 400;
+    font-size: 54px;
+    width: 444px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.history-title span {
+    color: #BC9060;
+}
+
+.history-desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #656363;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    margin-top: 100px;
+    margin-left: 25px;
+    display: flex;
+    width: 444px;
+    justify-content: center;    
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 55px;
+    color:#BC9060;
+}
+
+.number-item span {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color:  #000;
+}
+
+.history-holder {
+    margin-left: 140px;
+    display: flex;
+}
+
+.history-images {
+    position: relative;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 999;
+    top: 50px;
+    left: 190px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 350px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 999;
+    top: 250px;
+    left: 470px;
 }
