@@ -38,8 +38,7 @@ body {
     position: relative;
     border-right: 1px solid #FFFFFF;
     padding-right: 10px;
-    height: 50px;
-    
+    height: 50px;    
 }
 
 .cart-img {
@@ -180,23 +179,21 @@ body {
 
 .card-desc {
     text-align: center;
-    justify-content: center;
     font-family: 'Tinos', 'serif';
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
     color: #656363;
-;
 }
 
 .cards-holder {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .history {
-    padding-left: ;
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -247,7 +244,6 @@ body {
 }
 
 .history-holder {
-    margin-left: 140px;
     display: flex;
 }
 
@@ -259,19 +255,60 @@ body {
     position: absolute;
     z-index: 999;
     top: 50px;
-    left: 190px;
+    left: 290px;
 }
 
 .images-2 {
     position: absolute;
     z-index: 0;
     top: 0;
-    left: 350px;
+    left: 450px;
 }
 
 .images-3 {
     position: absolute;
     z-index: 999;
-    top: 250px;
-    left: 470px;
+    top: 200px;
+    left: 550px;
+}
+
+.black-block {
+    background-image: url(black-block-bg.jpg);
+    padding: 80px 0;
+}
+
+.left-title {
+    font-family: 'Tinos', 'serif';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-family: 'Open Sans', 'serif';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    color: #FFF;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+
+.right-btn:hover {
+    background-color: #a54f16;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
