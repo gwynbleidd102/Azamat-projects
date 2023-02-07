@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
     --accent: rgb(54, 81, 131);
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     background-color: var(--accent);
     height: 100vh;
     display: flex;
@@ -33,7 +33,7 @@ body {
     margin: 16px 0 32px;
 }
 
-.todo__new input{
+.todo__new input {
     margin-right: 16px;
     font-size: 18px;
     font-weight: 300;
@@ -94,7 +94,7 @@ body {
     display: block;
 }
 
-.todo__checkbox div {    
+.todo__checkbox div {
     cursor: pointer;
     width: 28px;
     height: 28px;
@@ -106,7 +106,7 @@ body {
 
 .todo__checkbox div::after {
     text-align: center;
-    content: '\1F5F8';
+    content: "\1F5F8";
     display: none;
     position: absolute;
     top: 0;
